@@ -1,2 +1,2 @@
 # strlen-asm-SIMD-bithacks
-x86_64 assembly program: SIMD w/ General Purpose registers, no SSE instructions/registers. Using bithacks &amp; optimizations achieve strlen in half length, adhering to 1.5n + 100 cycles limit.
+I have developed a x86 64 assembly program that implements the "strlen" function. What makes this program special is its utilization of SIMD (Single Instruction, Multiple Data) operations using General Purpose registers, without relying on SSE instructions. By leveraging Bithacks and clever algorithmic optimizations, our program achieves string length calculation in half the length compared to conventional approaches, all while adhering to the constraint of the number of cycles limited to 1.5n + 100.
